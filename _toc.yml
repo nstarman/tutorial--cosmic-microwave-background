@@ -1,0 +1,6 @@
+format: jb-book
+root: index-cmb
+chapters:
+- file: 1_CMB-Blackbody-Temperature
+- file: 2_CMB-Sky-Map
+- file: 3_CMB-Standard-Ruler

@@ -34,4 +34,4 @@ repos:
     rev: 0.9.1
     hooks:
       - id: nbstripout
-        args: ["--extra-keys=metadata.kernelspec metadata.language_info.version metadata.toc"]
+        args: ["--keep-output", "--extra-keys=metadata.kernelspec metadata.language_info.version metadata.toc"]
