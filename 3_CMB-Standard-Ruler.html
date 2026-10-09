@@ -1,0 +1,1054 @@
+
+<!DOCTYPE html>
+
+
+<html lang="en" data-content_root="./" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Cosmic Microwave Background 3: Measure the age of the Universe with a standard ruler &#8212; Cosmic Microwave Background</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "";
+  </script>
+  <!--
+    this give us a css class that will be invisible only if js is disabled
+  -->
+  <noscript>
+    <style>
+      .pst-js-only { display: none !important; }
+
+    </style>
+  </noscript>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="_static/styles/theme.css?digest=55c26ed414f5f8a31ebb" rel="stylesheet" />
+<link href="_static/styles/pydata-sphinx-theme.css?digest=55c26ed414f5f8a31ebb" rel="stylesheet" />
+
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=03e43079" />
+    <link rel="stylesheet" type="text/css" href="_static/styles/sphinx-book-theme.css?v=3c74b3bc" />
+    <link rel="stylesheet" type="text/css" href="_static/togglebutton.css?v=9c3e77be" />
+    <link rel="stylesheet" type="text/css" href="_static/copybutton.css?v=76b2166b" />
+    <link rel="stylesheet" type="text/css" href="_static/mystnb.11b39860a7a0cbfd473a3ad8a317855267ff0bd372690045ca344a6b62be495e.css" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css?v=4fa983c6" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-design.min.css?v=95c83b7e" />
+  
+  <!-- So that users can add custom icons -->
+  <script defer src="_static/scripts/fontawesome.js?digest=55c26ed414f5f8a31ebb"></script>
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="_static/scripts/bootstrap.js?digest=55c26ed414f5f8a31ebb" />
+<link rel="preload" as="script" href="_static/scripts/pydata-sphinx-theme.js?digest=55c26ed414f5f8a31ebb" />
+
+    <script src="_static/documentation_options.js?v=9eb32ce0"></script>
+    <script src="_static/doctools.js?v=9a2dae69"></script>
+    <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="_static/clipboard.min.js?v=a7894cd8"></script>
+    <script src="_static/copybutton.js?v=f281be69"></script>
+    <script src="_static/scripts/sphinx-book-theme.js?v=fab101a9"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="_static/togglebutton.js?v=b8b12719"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="_static/design-tabs.js?v=f930bc37"></script>
+    <script async="async" src="https://www.googletagmanager.com/gtag/js?id=G-ZBXC3EFGGJ"></script>
+    <script>
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){ dataLayer.push(arguments); }
+                gtag('consent', 'default', {
+                    'ad_storage': 'denied',
+                    'ad_user_data': 'denied',
+                    'ad_personalization': 'denied',
+                    'analytics_storage': 'denied'
+                });
+                gtag('js', new Date());
+                gtag('config', 'G-ZBXC3EFGGJ');
+            </script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script async="async" src="_static/sphinx-thebe.js?v=c100c467"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script>
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){ dataLayer.push(arguments); }
+                gtag('consent', 'default', {
+                    'ad_storage': 'denied',
+                    'ad_user_data': 'denied',
+                    'ad_personalization': 'denied',
+                    'analytics_storage': 'denied'
+                });
+                gtag('js', new Date());
+                gtag('config', 'G-ZBXC3EFGGJ');
+            </script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script>window.MathJax = {"options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
+    <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = '3_CMB-Standard-Ruler';</script>
+    <script>DOCUMENTATION_OPTIONS.search_as_you_type = false;</script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="prev" title="Cosmic Microwave Background 2: Explore an all-sky map of the cosmic microwave background" href="2_CMB-Sky-Map.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  <meta name="docsearch:version" content="" />
+  
+    
+    <script src="_static/searchtools.js"></script>
+    <script src="_static/language_data.js"></script>
+    <script src="searchindex.js"></script>
+  
+  </head>
+  <body data-default-mode="">
+  
+  
+  <div id="pst-skip-link" class="skip-link d-print-none"><a href="#main-content">Skip to main content</a></div>
+
+  
+  <div id="pst-scroll-pixel-helper"></div>
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>Back to top</button>
+  
+  
+  
+  
+  <dialog id="pst-search-dialog">
+    
+<form class="bd-search d-flex align-items-center"
+      action="search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         placeholder="Search..."
+         aria-label="Search..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form>
+  </dialog>
+
+  <div class="pst-async-banner-revealer d-none">
+  <aside id="bd-header-version-warning" class="d-none d-print-none" aria-label="Version warning"></aside>
+</div>
+
+  
+    <header id="pst-header" class="bd-header navbar navbar-expand-lg bd-navbar d-print-none">
+<div class="bd-header__inner bd-page-width">
+  <button class="pst-navbar-icon sidebar-toggle primary-toggle" aria-label="Site navigation">
+    <span class="fa-solid fa-bars"></span>
+  </button>
+  
+  
+  <div class="col-lg-9 navbar-header-items">
+    
+    
+    <div class="navbar-header-items__end">
+      
+        <div class="navbar-item navbar-persistent--container">
+          
+
+<button class="btn search-button-field search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+ <i class="fa-solid fa-magnifying-glass"></i>
+ <span class="search-button__default-text">Search</span>
+ <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+</button>
+        </div>
+      
+      
+    </div>
+    
+  </div>
+  
+  
+    <div class="navbar-persistent--mobile">
+
+<button class="btn search-button-field search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+ <i class="fa-solid fa-magnifying-glass"></i>
+ <span class="search-button__default-text">Search</span>
+ <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+</button>
+    </div>
+  
+
+  
+    <button class="pst-navbar-icon sidebar-toggle secondary-toggle" aria-label="On this page">
+      <span class="fa-solid fa-outdent"></span>
+    </button>
+  
+</div>
+
+    </header>
+  
+
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      
+      
+      <dialog id="pst-primary-sidebar-modal"></dialog>
+      <div id="pst-primary-sidebar" class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+
+  
+     
+  
+
+<a class="navbar-brand logo" href="https://learn.astropy.org">
+  
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="_static/logo.svg" class="logo__image only-light" alt="Learn Astropy"/>
+    <img src="_static/logo.svg" class="logo__image only-dark pst-js-only" alt="Learn Astropy"/>
+  
+  
+</a></div>
+        <div class="sidebar-primary-item">
+
+<button class="btn search-button-field search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+ <i class="fa-solid fa-magnifying-glass"></i>
+ <span class="search-button__default-text">Search</span>
+ <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+</button></div>
+        <div class="sidebar-primary-item"><nav class="bd-links bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        <ul class="current nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="1_CMB-Blackbody-Temperature.html">Cosmic Microwave Background 1: Measure the temperature of the Universe from its blackbody spectrum</a></li>
+<li class="toctree-l1"><a class="reference internal" href="2_CMB-Sky-Map.html">Cosmic Microwave Background 2: Explore an all-sky map of the cosmic microwave background</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">Cosmic Microwave Background 3: Measure the age of the Universe with a standard ruler</a></li>
+</ul>
+
+    </div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+      <div class="sidebar-primary-item">
+<div id="ethical-ad-placement"
+      class="flat"
+      data-ea-publisher="readthedocs"
+      data-ea-type="readthedocs-sidebar"
+      data-ea-manual="true">
+</div></div>
+  </div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main" role="main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article d-print-none">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><button class="sidebar-toggle primary-toggle btn btn-sm" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</button></div>
+      
+    </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+
+
+
+<div class="dropdown dropdown-launch-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Launch interactive content">
+    <i class="fas fa-rocket"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li>
+<button onclick="initThebeSBT()"
+  class="btn btn-sm btn-launch-thebe dropdown-item"
+  title="Launch Thebe"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-play"></i>
+  </span>
+<span class="btn__text-container">Live Code</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+
+
+<div class="dropdown dropdown-source-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Source repositories">
+    <i class="fab fa-github"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="https://github.com/astropy-learn/tutorial--cosmic-microwave-background" target="_blank"
+   class="btn btn-sm btn-source-repository-button dropdown-item"
+   title="Source repository"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fab fa-github"></i>
+  </span>
+<span class="btn__text-container">Repository</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li><a href="https://github.com/astropy-learn/tutorial--cosmic-microwave-background/edit/main/3_CMB-Standard-Ruler.ipynb" target="_blank"
+   class="btn btn-sm btn-source-edit-button dropdown-item"
+   title="Suggest edit"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-pencil-alt"></i>
+  </span>
+<span class="btn__text-container">Suggest edit</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li><a href="https://github.com/astropy-learn/tutorial--cosmic-microwave-background/issues/new?title=Issue%20on%20page%20%2F3_CMB-Standard-Ruler.html&body=Your%20issue%20content%20here." target="_blank"
+   class="btn btn-sm btn-source-issues-button dropdown-item"
+   title="Open an issue"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-lightbulb"></i>
+  </span>
+<span class="btn__text-container">Open issue</span>
+</a>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="_sources/3_CMB-Standard-Ruler.ipynb" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Download source file"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.ipynb</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Print to PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button pst-navbar-icon"
+  title="Fullscreen mode"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+
+
+<button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button pst-js-only" aria-label="Color mode" data-bs-title="Color mode"  data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <i class="theme-switch fa-solid fa-sun                fa-lg" data-mode="light" title="Light"></i>
+  <i class="theme-switch fa-solid fa-moon               fa-lg" data-mode="dark"  title="Dark"></i>
+  <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"  title="System Settings"></i>
+</button>
+
+
+<button class="btn btn-sm pst-navbar-icon search-button search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+</button>
+<button class="sidebar-toggle secondary-toggle btn btn-sm pst-navbar-icon" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</button>
+</div></div>
+      
+    </div>
+  
+</div>
+</div>
+              
+              
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>Cosmic Microwave Background 3: Measure the age of the Universe with a standard ruler</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="pst-show_toc_level nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#authors">Authors</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#learning-goals">Learning Goals</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#keywords">Keywords</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#companion-content">Companion Content</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#summary">Summary</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#imports">Imports</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#measure-the-distance-to-the-moon-from-its-angular-size">Measure the distance to the Moon from its angular size</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#find-hot-spots-in-the-cmb-map">Find hot spots in the CMB map</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#stack-the-hot-spots">Stack the hot spots</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#measure-the-angular-size-of-a-hot-spot">Measure the angular size of a hot spot</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#convert-the-angular-size-into-a-distance">Convert the angular size into a distance</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#find-the-age-of-the-universe-with-astropy-cosmology">Find the age of the Universe with astropy.cosmology</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#exercise">Exercise</a></li>
+</ul>
+            </nav>
+        </div>
+    </div>
+</div>
+
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article">
+                  
+  <section class="tex2jax_ignore mathjax_ignore" id="cosmic-microwave-background-3-measure-the-age-of-the-universe-with-a-standard-ruler">
+<h1>Cosmic Microwave Background 3: Measure the age of the Universe with a standard ruler<a class="headerlink" href="#cosmic-microwave-background-3-measure-the-age-of-the-universe-with-a-standard-ruler" title="Link to this heading">#</a></h1>
+<section id="authors">
+<h2>Authors<a class="headerlink" href="#authors" title="Link to this heading">#</a></h2>
+<p>Nathaniel Starkman (<a class="reference external" href="https://github.com/nstarman">&#64;nstarman</a>)</p>
+<p>Adapted from the <a class="reference external" href="https://github.com/Coding-the-Cosmos/notebooks/blob/05479e5b98aaa718cf43f931778a78aa61142c49/workshops/cmb.ipynb"><em>Coding the Cosmos</em> Cosmic Microwave Background workshop</a> by Louis Branch and Yilun Guan.</p>
+</section>
+<section id="learning-goals">
+<h2>Learning Goals<a class="headerlink" href="#learning-goals" title="Link to this heading">#</a></h2>
+<ul class="simple">
+<li><p>Convert between angular size, physical size, and distance with <code class="docutils literal notranslate"><span class="pre">astropy.units</span></code> and the <code class="docutils literal notranslate"><span class="pre">dimensionless_angles</span></code> equivalency</p></li>
+<li><p>Find local maxima in an image with <code class="docutils literal notranslate"><span class="pre">scipy.ndimage</span></code>, and select them by position with <code class="docutils literal notranslate"><span class="pre">astropy.coordinates.SkyCoord</span></code></p></li>
+<li><p>Reproject cutouts of an image onto a common grid with <code class="docutils literal notranslate"><span class="pre">reproject</span></code>, and stack them</p></li>
+<li><p>Compute distances and times in an expanding universe with <code class="docutils literal notranslate"><span class="pre">astropy.cosmology</span></code></p></li>
+</ul>
+</section>
+<section id="keywords">
+<h2>Keywords<a class="headerlink" href="#keywords" title="Link to this heading">#</a></h2>
+<p>units, coordinates, reproject, image manipulation, cosmology, scipy</p>
+</section>
+<section id="companion-content">
+<h2>Companion Content<a class="headerlink" href="#companion-content" title="Link to this heading">#</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://docs.astropy.org/en/stable/cosmology/">astropy.cosmology documentation</a></p></li>
+<li><p><a class="reference external" href="https://reproject.readthedocs.io">reproject documentation</a></p></li>
+<li><p><a class="reference internal" href="2_CMB-Sky-Map.html"><span class="std std-doc">Cosmic Microwave Background 2: Explore an all-sky map of the cosmic microwave background</span></a></p></li>
+<li><p><a class="reference external" href="https://learn.astropy.org/tutorials/redshift-plot.html">Make a plot with both redshift and universe age axes</a></p></li>
+</ul>
+</section>
+<section id="summary">
+<h2>Summary<a class="headerlink" href="#summary" title="Link to this heading">#</a></h2>
+<p>The hot and cold spots in the cosmic microwave background (CMB) have a characteristic physical size, which makes them a “standard ruler.” In this tutorial we will find hot spots in a <em>Planck</em> map of the CMB, stack them to measure their typical angular size, and use that size to estimate how far the CMB light has traveled to reach us. We will then use <code class="docutils literal notranslate"><span class="pre">astropy.cosmology</span></code> to turn that distance into the age of the Universe.</p>
+<p><em>Note: This is tutorial 3 of 3 in a series on the cosmic microwave background.</em></p>
+</section>
+<section id="imports">
+<h2>Imports<a class="headerlink" href="#imports" title="Link to this heading">#</a></h2>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="o">%</span><span class="k">matplotlib</span> inline
+<span class="kn">import</span><span class="w"> </span><span class="nn">astropy.constants</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">const</span>
+<span class="kn">import</span><span class="w"> </span><span class="nn">astropy.units</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">u</span>
+<span class="kn">import</span><span class="w"> </span><span class="nn">matplotlib.pyplot</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">plt</span>
+<span class="kn">import</span><span class="w"> </span><span class="nn">numpy</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">np</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">astropy.coordinates</span><span class="w"> </span><span class="kn">import</span> <span class="n">SkyCoord</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">astropy.cosmology</span><span class="w"> </span><span class="kn">import</span> <span class="n">Planck18</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">astropy.io</span><span class="w"> </span><span class="kn">import</span> <span class="n">fits</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">astropy.nddata</span><span class="w"> </span><span class="kn">import</span> <span class="n">Cutout2D</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">astropy.utils.data</span><span class="w"> </span><span class="kn">import</span> <span class="n">download_file</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">astropy.wcs</span><span class="w"> </span><span class="kn">import</span> <span class="n">WCS</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">reproject</span><span class="w"> </span><span class="kn">import</span> <span class="n">reproject_interp</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">scipy</span><span class="w"> </span><span class="kn">import</span> <span class="n">ndimage</span>
+</pre></div>
+</div>
+</div>
+</div>
+</section>
+<section id="measure-the-distance-to-the-moon-from-its-angular-size">
+<h2>Measure the distance to the Moon from its angular size<a class="headerlink" href="#measure-the-distance-to-the-moon-from-its-angular-size" title="Link to this heading">#</a></h2>
+<p>If we know how big an object really is, and measure how big it looks, we can work out how far away it is. An object of physical size <span class="math notranslate nohighlight">\(s\)</span> at distance <span class="math notranslate nohighlight">\(d\)</span> covers an angle on the sky of</p>
+<div class="math notranslate nohighlight">
+\[\theta = \frac{s}{d},\]</div>
+<p>with <span class="math notranslate nohighlight">\(\theta\)</span> in radians, as long as the angle is small. Rearranging, <span class="math notranslate nohighlight">\(d = s / \theta\)</span>.</p>
+<p>We try this on the Moon, which is 3474 km across and covers about 0.52 degrees on the sky:</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">moon_diameter</span> <span class="o">=</span> <span class="mi">3474</span> <span class="o">*</span> <span class="n">u</span><span class="o">.</span><span class="n">km</span>
+<span class="n">moon_angular_size</span> <span class="o">=</span> <span class="mf">0.52</span> <span class="o">*</span> <span class="n">u</span><span class="o">.</span><span class="n">deg</span>
+</pre></div>
+</div>
+</div>
+</div>
+<p>Dividing a length by an angle gives units of km / deg, not a distance. Radians are a ratio of two lengths, so <code class="docutils literal notranslate"><span class="pre">astropy.units</span></code> can drop them, but only if we allow it with the <code class="docutils literal notranslate"><span class="pre">dimensionless_angles</span></code> equivalency:</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">moon_distance</span> <span class="o">=</span> <span class="p">(</span><span class="n">moon_diameter</span> <span class="o">/</span> <span class="n">moon_angular_size</span><span class="p">)</span><span class="o">.</span><span class="n">to</span><span class="p">(</span><span class="n">u</span><span class="o">.</span><span class="n">km</span><span class="p">,</span> <span class="n">equivalencies</span><span class="o">=</span><span class="n">u</span><span class="o">.</span><span class="n">dimensionless_angles</span><span class="p">())</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"Distance to the Moon: </span><span class="si">{</span><span class="n">moon_distance</span><span class="si">:</span><span class="s2">.0f</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Distance to the Moon: 382780 km
+</pre></div>
+</div>
+</div>
+</div>
+<p>The Moon is about 383,000 km away. Light travels this distance in just over a second:</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">moon_light_travel_time</span> <span class="o">=</span> <span class="p">(</span><span class="n">moon_distance</span> <span class="o">/</span> <span class="n">const</span><span class="o">.</span><span class="n">c</span><span class="p">)</span><span class="o">.</span><span class="n">to</span><span class="p">(</span><span class="n">u</span><span class="o">.</span><span class="n">s</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"Light travel time from the Moon: </span><span class="si">{</span><span class="n">moon_light_travel_time</span><span class="si">:</span><span class="s2">.2f</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Light travel time from the Moon: 1.28 s
+</pre></div>
+</div>
+</div>
+</div>
+<p>We will use the same method to measure the distance to the CMB. The “objects” are its hot spots, which formed from sound waves in the hot, dense early Universe. Before the CMB was released, sound could only travel a certain distance, called the sound horizon. This distance sets the typical size of the hot spots. Measured in today’s (expanded) Universe, it is about 150 megaparsecs (Mpc), where 1 Mpc is about 3.26 million light-years.</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">sound_horizon</span> <span class="o">=</span> <span class="mi">150</span> <span class="o">*</span> <span class="n">u</span><span class="o">.</span><span class="n">Mpc</span>
+</pre></div>
+</div>
+</div>
+</div>
+</section>
+<section id="find-hot-spots-in-the-cmb-map">
+<h2>Find hot spots in the CMB map<a class="headerlink" href="#find-hot-spots-in-the-cmb-map" title="Link to this heading">#</a></h2>
+<p>We download and open the <em>Planck</em> CMB map from the <a class="reference internal" href="2_CMB-Sky-Map.html"><span class="std std-doc">previous tutorial</span></a>, convert it to microkelvin, and measure its mean and standard deviation, weighting each pixel by its area on the sky as in the previous tutorial:</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># TODO: replace with the Zenodo record for this tutorial series</span>
+<span class="n">cmb_url</span> <span class="o">=</span> <span class="p">(</span>
+    <span class="s2">"https://raw.githubusercontent.com/Coding-the-Cosmos/notebooks/"</span>
+    <span class="s2">"05479e5b98aaa718cf43f931778a78aa61142c49/data/"</span>
+    <span class="s2">"COM_CMB_IQU-commander_1024_R2.02_dg16_car.fits"</span>
+<span class="p">)</span>
+<span class="n">cmb_data</span><span class="p">,</span> <span class="n">cmb_header</span> <span class="o">=</span> <span class="n">fits</span><span class="o">.</span><span class="n">getdata</span><span class="p">(</span><span class="n">download_file</span><span class="p">(</span><span class="n">cmb_url</span><span class="p">,</span> <span class="n">cache</span><span class="o">=</span><span class="kc">True</span><span class="p">),</span> <span class="n">header</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<span class="n">cmb_wcs</span> <span class="o">=</span> <span class="n">WCS</span><span class="p">(</span><span class="n">cmb_header</span><span class="p">)</span><span class="o">.</span><span class="n">celestial</span>
+<span class="n">cmb_map</span> <span class="o">=</span> <span class="p">(</span><span class="n">cmb_data</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">*</span> <span class="n">u</span><span class="o">.</span><span class="n">K</span><span class="p">)</span><span class="o">.</span><span class="n">to</span><span class="p">(</span><span class="n">u</span><span class="o">.</span><span class="n">uK</span><span class="p">)</span>
+
+<span class="n">row_dec</span> <span class="o">=</span> <span class="n">cmb_wcs</span><span class="o">.</span><span class="n">pixel_to_world</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">zeros</span><span class="p">(</span><span class="n">cmb_map</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">0</span><span class="p">]),</span> <span class="n">np</span><span class="o">.</span><span class="n">arange</span><span class="p">(</span><span class="n">cmb_map</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">0</span><span class="p">]))</span><span class="o">.</span><span class="n">dec</span>
+<span class="n">pixel_weights</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">broadcast_to</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">cos</span><span class="p">(</span><span class="n">row_dec</span><span class="p">)</span><span class="o">.</span><span class="n">value</span><span class="p">[:,</span> <span class="n">np</span><span class="o">.</span><span class="n">newaxis</span><span class="p">],</span> <span class="n">cmb_map</span><span class="o">.</span><span class="n">shape</span><span class="p">)</span>
+
+<span class="n">mean_temperature</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">average</span><span class="p">(</span><span class="n">cmb_map</span><span class="p">,</span> <span class="n">weights</span><span class="o">=</span><span class="n">pixel_weights</span><span class="p">)</span>
+<span class="n">std_temperature</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">sqrt</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">average</span><span class="p">((</span><span class="n">cmb_map</span> <span class="o">-</span> <span class="n">mean_temperature</span><span class="p">)</span> <span class="o">**</span> <span class="mi">2</span><span class="p">,</span> <span class="n">weights</span><span class="o">=</span><span class="n">pixel_weights</span><span class="p">))</span>
+</pre></div>
+</div>
+</div>
+</div>
+<p>A hot spot is a local maximum of the map: a pixel that is hotter than all of the pixels around it. <code class="docutils literal notranslate"><span class="pre">scipy.ndimage.maximum_filter</span></code> replaces each pixel with the largest value within a box around it, so the local maxima are the pixels left unchanged. We use a box 15 pixels across, which spans 2 degrees of declination, so that each hot spot is counted only once, and keep only the clearest hot spots: those more than 2 standard deviations hotter than average. The left and right edges of the map are the same place on the sky (RA = 180 degrees), so we tell <code class="docutils literal notranslate"><span class="pre">maximum_filter</span></code> to wrap around from one to the other with <code class="docutils literal notranslate"><span class="pre">mode</span></code>.</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">is_local_maximum</span> <span class="o">=</span> <span class="n">cmb_map</span><span class="o">.</span><span class="n">value</span> <span class="o">==</span> <span class="n">ndimage</span><span class="o">.</span><span class="n">maximum_filter</span><span class="p">(</span><span class="n">cmb_map</span><span class="o">.</span><span class="n">value</span><span class="p">,</span> <span class="n">size</span><span class="o">=</span><span class="mi">15</span><span class="p">,</span> <span class="n">mode</span><span class="o">=</span><span class="p">(</span><span class="s2">"nearest"</span><span class="p">,</span> <span class="s2">"wrap"</span><span class="p">))</span>
+<span class="n">is_hot_spot</span> <span class="o">=</span> <span class="n">is_local_maximum</span> <span class="o">&amp;</span> <span class="p">(</span><span class="n">cmb_map</span> <span class="o">-</span> <span class="n">mean_temperature</span> <span class="o">&gt;</span> <span class="mi">2</span> <span class="o">*</span> <span class="n">std_temperature</span><span class="p">)</span>
+
+<span class="n">hot_spot_y</span><span class="p">,</span> <span class="n">hot_spot_x</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">nonzero</span><span class="p">(</span><span class="n">is_hot_spot</span><span class="p">)</span>
+<span class="n">hot_spots</span> <span class="o">=</span> <span class="n">cmb_wcs</span><span class="o">.</span><span class="n">pixel_to_world</span><span class="p">(</span><span class="n">hot_spot_x</span><span class="p">,</span> <span class="n">hot_spot_y</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"Number of hot spots: </span><span class="si">{</span><span class="nb">len</span><span class="p">(</span><span class="n">hot_spots</span><span class="p">)</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Number of hot spots: 3891
+</pre></div>
+</div>
+</div>
+</div>
+<p>Leftover light from the Milky Way could look like hot spots, so we remove the hot spots within 20 degrees of the Galactic plane. <code class="docutils literal notranslate"><span class="pre">SkyCoord</span></code> transforms the positions to Galactic coordinates, where the latitude <code class="docutils literal notranslate"><span class="pre">b</span></code> is zero on the plane. We also remove the hot spots within 20 degrees of the celestial poles. Every pixel spans the same range of RA, but lines of RA get closer together towards the poles, so the 15-pixel box gets narrower: at a declination of ±70 degrees it is only about 0.7 degrees wide, and the same hot spot can be counted more than once.</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">away_from_galactic_plane</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">abs</span><span class="p">(</span><span class="n">hot_spots</span><span class="o">.</span><span class="n">galactic</span><span class="o">.</span><span class="n">b</span><span class="p">)</span> <span class="o">&gt;</span> <span class="mi">20</span> <span class="o">*</span> <span class="n">u</span><span class="o">.</span><span class="n">deg</span>
+<span class="n">away_from_poles</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">abs</span><span class="p">(</span><span class="n">hot_spots</span><span class="o">.</span><span class="n">dec</span><span class="p">)</span> <span class="o">&lt;</span> <span class="mi">70</span> <span class="o">*</span> <span class="n">u</span><span class="o">.</span><span class="n">deg</span>
+<span class="n">hot_spots</span> <span class="o">=</span> <span class="n">hot_spots</span><span class="p">[</span><span class="n">away_from_galactic_plane</span> <span class="o">&amp;</span> <span class="n">away_from_poles</span><span class="p">]</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"Number of hot spots away from the Galactic plane and the poles: </span><span class="si">{</span><span class="nb">len</span><span class="p">(</span><span class="n">hot_spots</span><span class="p">)</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Number of hot spots away from the Galactic plane and the poles: 2290
+</pre></div>
+</div>
+</div>
+</div>
+<p>To check our hot spots, we plot a 30-degree cutout of the map and mark the hot spots on it. <code class="docutils literal notranslate"><span class="pre">scatter_coord</span></code> plots <code class="docutils literal notranslate"><span class="pre">SkyCoord</span></code> positions in the right place on a WCSAxes plot:</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">cutout</span> <span class="o">=</span> <span class="n">Cutout2D</span><span class="p">(</span><span class="n">cmb_map</span><span class="o">.</span><span class="n">value</span><span class="p">,</span> <span class="n">position</span><span class="o">=</span><span class="n">SkyCoord</span><span class="p">(</span><span class="n">ra</span><span class="o">=</span><span class="mi">0</span> <span class="o">*</span> <span class="n">u</span><span class="o">.</span><span class="n">deg</span><span class="p">,</span> <span class="n">dec</span><span class="o">=-</span><span class="mi">40</span> <span class="o">*</span> <span class="n">u</span><span class="o">.</span><span class="n">deg</span><span class="p">),</span> <span class="n">size</span><span class="o">=</span><span class="mi">30</span> <span class="o">*</span> <span class="n">u</span><span class="o">.</span><span class="n">deg</span><span class="p">,</span> <span class="n">wcs</span><span class="o">=</span><span class="n">cmb_wcs</span><span class="p">)</span>
+
+<span class="n">fig</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">6</span><span class="p">,</span> <span class="mi">6</span><span class="p">))</span>
+<span class="n">ax</span> <span class="o">=</span> <span class="n">fig</span><span class="o">.</span><span class="n">add_subplot</span><span class="p">(</span><span class="n">projection</span><span class="o">=</span><span class="n">cutout</span><span class="o">.</span><span class="n">wcs</span><span class="p">)</span>
+<span class="n">image</span> <span class="o">=</span> <span class="n">ax</span><span class="o">.</span><span class="n">imshow</span><span class="p">(</span><span class="n">cutout</span><span class="o">.</span><span class="n">data</span><span class="p">,</span> <span class="n">origin</span><span class="o">=</span><span class="s2">"lower"</span><span class="p">,</span> <span class="n">cmap</span><span class="o">=</span><span class="s2">"RdBu_r"</span><span class="p">,</span> <span class="n">vmin</span><span class="o">=-</span><span class="mi">300</span><span class="p">,</span> <span class="n">vmax</span><span class="o">=</span><span class="mi">300</span><span class="p">)</span>
+<span class="n">ax</span><span class="o">.</span><span class="n">scatter_coord</span><span class="p">(</span><span class="n">hot_spots</span><span class="p">,</span> <span class="n">marker</span><span class="o">=</span><span class="s2">"x"</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s2">"k"</span><span class="p">)</span>
+<span class="n">ax</span><span class="o">.</span><span class="n">set_xlim</span><span class="p">(</span><span class="o">-</span><span class="mf">0.5</span><span class="p">,</span> <span class="n">cutout</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">-</span> <span class="mf">0.5</span><span class="p">)</span>
+<span class="n">ax</span><span class="o">.</span><span class="n">set_ylim</span><span class="p">(</span><span class="o">-</span><span class="mf">0.5</span><span class="p">,</span> <span class="n">cutout</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">-</span> <span class="mf">0.5</span><span class="p">)</span>
+<span class="n">ax</span><span class="o">.</span><span class="n">coords</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">set_axislabel</span><span class="p">(</span><span class="s2">"Right ascension"</span><span class="p">)</span>
+<span class="n">ax</span><span class="o">.</span><span class="n">coords</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">set_axislabel</span><span class="p">(</span><span class="s2">"Declination"</span><span class="p">)</span>
+<span class="n">fig</span><span class="o">.</span><span class="n">colorbar</span><span class="p">(</span><span class="n">image</span><span class="p">,</span> <span class="n">ax</span><span class="o">=</span><span class="n">ax</span><span class="p">,</span> <span class="n">label</span><span class="o">=</span><span class="sa">f</span><span class="s2">"Temperature difference [</span><span class="si">{</span><span class="n">cmb_map</span><span class="o">.</span><span class="n">unit</span><span class="si">:</span><span class="s2">latex</span><span class="si">}</span><span class="s2">]"</span><span class="p">,</span> <span class="n">shrink</span><span class="o">=</span><span class="mf">0.8</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<img alt="_images/1c8583f4bb0cbf9c057921d09d3e2520c75c9a6c957ae07ca2902b3d71f2d626.png" src="_images/1c8583f4bb0cbf9c057921d09d3e2520c75c9a6c957ae07ca2902b3d71f2d626.png" />
+</div>
+</div>
+<p>Each cross marks the center of one of the hottest (darkest red) spots.</p>
+</section>
+<section id="stack-the-hot-spots">
+<h2>Stack the hot spots<a class="headerlink" href="#stack-the-hot-spots" title="Link to this heading">#</a></h2>
+<p>Any single hot spot is lumpy, because hot spots of different sizes overlap. If we average many of them, the random lumps average away and the typical shape of a hot spot remains. This is called stacking.</p>
+<p>To stack the hot spots, every cutout needs to be on the same grid of pixels, centered on its hot spot. The map’s projection stretches the sky by different amounts at different declinations, so we cannot use pixel cutouts of the map directly. Instead, for each hot spot we make a new WCS with a gnomonic (<code class="docutils literal notranslate"><span class="pre">TAN</span></code>) projection centered on the hot spot, which is nearly undistorted close to its center, and use <code class="docutils literal notranslate"><span class="pre">reproject_interp</span></code> to resample the map onto it. Each cutout is 2 degrees across, with pixels 2 arcminutes on a side.</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">cutout_shape</span> <span class="o">=</span> <span class="p">(</span><span class="mi">61</span><span class="p">,</span> <span class="mi">61</span><span class="p">)</span>
+<span class="n">cutout_pixel_scale</span> <span class="o">=</span> <span class="mi">2</span> <span class="o">*</span> <span class="n">u</span><span class="o">.</span><span class="n">arcmin</span>
+
+
+<span class="k">def</span><span class="w"> </span><span class="nf">make_cutout_wcs</span><span class="p">(</span><span class="n">center</span><span class="p">):</span>
+<span class="w">    </span><span class="sd">"""Make a TAN projection WCS centered on a sky position."""</span>
+    <span class="n">cutout_wcs</span> <span class="o">=</span> <span class="n">WCS</span><span class="p">(</span><span class="n">naxis</span><span class="o">=</span><span class="mi">2</span><span class="p">)</span>
+    <span class="n">cutout_wcs</span><span class="o">.</span><span class="n">wcs</span><span class="o">.</span><span class="n">ctype</span> <span class="o">=</span> <span class="p">[</span><span class="s2">"RA---TAN"</span><span class="p">,</span> <span class="s2">"DEC--TAN"</span><span class="p">]</span>
+    <span class="n">cutout_wcs</span><span class="o">.</span><span class="n">wcs</span><span class="o">.</span><span class="n">crval</span> <span class="o">=</span> <span class="p">[</span><span class="n">center</span><span class="o">.</span><span class="n">ra</span><span class="o">.</span><span class="n">deg</span><span class="p">,</span> <span class="n">center</span><span class="o">.</span><span class="n">dec</span><span class="o">.</span><span class="n">deg</span><span class="p">]</span>
+    <span class="n">cutout_wcs</span><span class="o">.</span><span class="n">wcs</span><span class="o">.</span><span class="n">crpix</span> <span class="o">=</span> <span class="p">[(</span><span class="n">cutout_shape</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">+</span> <span class="mi">1</span><span class="p">)</span> <span class="o">/</span> <span class="mi">2</span><span class="p">,</span> <span class="p">(</span><span class="n">cutout_shape</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">+</span> <span class="mi">1</span><span class="p">)</span> <span class="o">/</span> <span class="mi">2</span><span class="p">]</span>
+    <span class="n">cutout_wcs</span><span class="o">.</span><span class="n">wcs</span><span class="o">.</span><span class="n">cdelt</span> <span class="o">=</span> <span class="p">[</span><span class="o">-</span><span class="n">cutout_pixel_scale</span><span class="o">.</span><span class="n">to_value</span><span class="p">(</span><span class="n">u</span><span class="o">.</span><span class="n">deg</span><span class="p">),</span> <span class="n">cutout_pixel_scale</span><span class="o">.</span><span class="n">to_value</span><span class="p">(</span><span class="n">u</span><span class="o">.</span><span class="n">deg</span><span class="p">)]</span>
+    <span class="k">return</span> <span class="n">cutout_wcs</span>
+
+
+<span class="n">hot_spot_cutouts</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">(</span>
+    <span class="p">[</span>
+        <span class="n">reproject_interp</span><span class="p">((</span><span class="n">cmb_map</span><span class="o">.</span><span class="n">value</span><span class="p">,</span> <span class="n">cmb_wcs</span><span class="p">),</span> <span class="n">make_cutout_wcs</span><span class="p">(</span><span class="n">hot_spot</span><span class="p">),</span> <span class="n">shape_out</span><span class="o">=</span><span class="n">cutout_shape</span><span class="p">)[</span><span class="mi">0</span><span class="p">]</span>
+        <span class="k">for</span> <span class="n">hot_spot</span> <span class="ow">in</span> <span class="n">hot_spots</span>
+    <span class="p">]</span>
+<span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">hot_spot_cutouts</span><span class="o">.</span><span class="n">shape</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>(2290, 61, 61)
+</pre></div>
+</div>
+</div>
+</div>
+<p>We now have one 61 by 61 pixel cutout for each hot spot. To see how stacking reduces the noise, we average 1, 10, 100, and all of the cutouts. The hot spots are ordered by their position in the map, so we shuffle them first, so that the first few do not all come from the same part of the sky:</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">extent</span> <span class="o">=</span> <span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">])</span> <span class="o">*</span> <span class="n">cutout_shape</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">/</span> <span class="mi">2</span> <span class="o">*</span> <span class="n">cutout_pixel_scale</span><span class="p">)</span><span class="o">.</span><span class="n">to_value</span><span class="p">(</span><span class="n">u</span><span class="o">.</span><span class="n">deg</span><span class="p">)</span>
+
+<span class="n">rng</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">default_rng</span><span class="p">(</span><span class="n">seed</span><span class="o">=</span><span class="mi">42</span><span class="p">)</span>
+<span class="n">shuffled_cutouts</span> <span class="o">=</span> <span class="n">rng</span><span class="o">.</span><span class="n">permutation</span><span class="p">(</span><span class="n">hot_spot_cutouts</span><span class="p">)</span>
+
+<span class="n">fig</span><span class="p">,</span> <span class="n">axes</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">subplots</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">15</span><span class="p">,</span> <span class="mi">4</span><span class="p">),</span> <span class="n">layout</span><span class="o">=</span><span class="s2">"constrained"</span><span class="p">)</span>
+<span class="k">for</span> <span class="n">ax</span><span class="p">,</span> <span class="n">n_stacked</span> <span class="ow">in</span> <span class="nb">zip</span><span class="p">(</span><span class="n">axes</span><span class="p">,</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">10</span><span class="p">,</span> <span class="mi">100</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="n">hot_spots</span><span class="p">)]):</span>
+    <span class="n">stacked</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">mean</span><span class="p">(</span><span class="n">shuffled_cutouts</span><span class="p">[:</span><span class="n">n_stacked</span><span class="p">],</span> <span class="n">axis</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span>
+    <span class="n">image</span> <span class="o">=</span> <span class="n">ax</span><span class="o">.</span><span class="n">imshow</span><span class="p">(</span><span class="n">stacked</span><span class="p">,</span> <span class="n">origin</span><span class="o">=</span><span class="s2">"lower"</span><span class="p">,</span> <span class="n">cmap</span><span class="o">=</span><span class="s2">"RdBu_r"</span><span class="p">,</span> <span class="n">vmin</span><span class="o">=-</span><span class="mi">250</span><span class="p">,</span> <span class="n">vmax</span><span class="o">=</span><span class="mi">250</span><span class="p">,</span> <span class="n">extent</span><span class="o">=</span><span class="n">extent</span><span class="p">)</span>
+    <span class="n">ax</span><span class="o">.</span><span class="n">set_title</span><span class="p">(</span><span class="sa">f</span><span class="s2">"</span><span class="si">{</span><span class="n">n_stacked</span><span class="si">}</span><span class="s2"> hot spot</span><span class="si">{</span><span class="s1">'s'</span><span class="w"> </span><span class="k">if</span><span class="w"> </span><span class="n">n_stacked</span><span class="w"> </span><span class="o">&gt;</span><span class="w"> </span><span class="mi">1</span><span class="w"> </span><span class="k">else</span><span class="w"> </span><span class="s1">''</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
+    <span class="n">ax</span><span class="o">.</span><span class="n">set_xlabel</span><span class="p">(</span><span class="s2">"Offset [deg]"</span><span class="p">)</span>
+<span class="n">axes</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">set_ylabel</span><span class="p">(</span><span class="s2">"Offset [deg]"</span><span class="p">)</span>
+<span class="n">fig</span><span class="o">.</span><span class="n">colorbar</span><span class="p">(</span><span class="n">image</span><span class="p">,</span> <span class="n">ax</span><span class="o">=</span><span class="n">axes</span><span class="p">,</span> <span class="n">label</span><span class="o">=</span><span class="sa">f</span><span class="s2">"Temperature difference [</span><span class="si">{</span><span class="n">cmb_map</span><span class="o">.</span><span class="n">unit</span><span class="si">:</span><span class="s2">latex</span><span class="si">}</span><span class="s2">]"</span><span class="p">,</span> <span class="n">shrink</span><span class="o">=</span><span class="mf">0.9</span><span class="p">,</span> <span class="n">pad</span><span class="o">=</span><span class="mf">0.01</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<img alt="_images/56d9e272b8abe8b1234d62c58f4affab81632262b1c01379c477398aecc48ed2.png" src="_images/56d9e272b8abe8b1234d62c58f4affab81632262b1c01379c477398aecc48ed2.png" />
+</div>
+</div>
+<p>As we stack more hot spots, a smooth, round hot spot emerges from the noise.</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">stacked_hot_spot</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">mean</span><span class="p">(</span><span class="n">hot_spot_cutouts</span><span class="p">,</span> <span class="n">axis</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span> <span class="o">*</span> <span class="n">cmb_map</span><span class="o">.</span><span class="n">unit</span>
+</pre></div>
+</div>
+</div>
+</div>
+</section>
+<section id="measure-the-angular-size-of-a-hot-spot">
+<h2>Measure the angular size of a hot spot<a class="headerlink" href="#measure-the-angular-size-of-a-hot-spot" title="Link to this heading">#</a></h2>
+<p>The stacked hot spot is round, so we describe it by its radial profile: the average temperature at each distance from its center. We compute the distance of every pixel from the center, sort the pixels into rings 0.05 degrees wide, and average the temperature in each ring:</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">pixel_y</span><span class="p">,</span> <span class="n">pixel_x</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">indices</span><span class="p">(</span><span class="n">cutout_shape</span><span class="p">)</span>
+<span class="n">center_y</span><span class="p">,</span> <span class="n">center_x</span> <span class="o">=</span> <span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">(</span><span class="n">cutout_shape</span><span class="p">)</span> <span class="o">-</span> <span class="mi">1</span><span class="p">)</span> <span class="o">/</span> <span class="mi">2</span>
+<span class="n">pixel_radius</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">hypot</span><span class="p">(</span><span class="n">pixel_x</span> <span class="o">-</span> <span class="n">center_x</span><span class="p">,</span> <span class="n">pixel_y</span> <span class="o">-</span> <span class="n">center_y</span><span class="p">)</span> <span class="o">*</span> <span class="n">cutout_pixel_scale</span>
+
+<span class="n">ring_edges</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">arange</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mf">1.01</span><span class="p">,</span> <span class="mf">0.05</span><span class="p">)</span> <span class="o">*</span> <span class="n">u</span><span class="o">.</span><span class="n">deg</span>
+<span class="n">ring_centers</span> <span class="o">=</span> <span class="p">(</span><span class="n">ring_edges</span><span class="p">[</span><span class="mi">1</span><span class="p">:]</span> <span class="o">+</span> <span class="n">ring_edges</span><span class="p">[:</span><span class="o">-</span><span class="mi">1</span><span class="p">])</span> <span class="o">/</span> <span class="mi">2</span>
+<span class="n">ring_index</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">digitize</span><span class="p">(</span><span class="n">pixel_radius</span><span class="p">,</span> <span class="n">ring_edges</span><span class="p">)</span>
+<span class="n">profile</span> <span class="o">=</span> <span class="n">u</span><span class="o">.</span><span class="n">Quantity</span><span class="p">([</span><span class="n">np</span><span class="o">.</span><span class="n">mean</span><span class="p">(</span><span class="n">stacked_hot_spot</span><span class="p">[</span><span class="n">ring_index</span> <span class="o">==</span> <span class="n">i</span><span class="p">])</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="n">ring_edges</span><span class="p">))])</span>
+</pre></div>
+</div>
+</div>
+</div>
+<p>Following the <em>Coding the Cosmos</em> workshop, we define the radius of the hot spot as the distance from its center at which its temperature falls to 30% of its peak. This convention is chosen so that the radius of the stacked hot spot roughly matches the angle that the sound horizon covers on the sky. <code class="docutils literal notranslate"><span class="pre">np.interp</span></code> finds where the profile crosses that value. It expects increasing values, so we pass it the negative of the profile, which increases with radius:</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">peak_temperature</span> <span class="o">=</span> <span class="n">profile</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+<span class="n">hot_spot_radius</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">interp</span><span class="p">(</span><span class="o">-</span><span class="mf">0.3</span> <span class="o">*</span> <span class="n">peak_temperature</span><span class="p">,</span> <span class="o">-</span><span class="n">profile</span><span class="p">,</span> <span class="n">ring_centers</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"Angular radius of a hot spot: </span><span class="si">{</span><span class="n">hot_spot_radius</span><span class="si">:</span><span class="s2">.2f</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
+
+<span class="n">fig</span><span class="p">,</span> <span class="n">ax</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">subplots</span><span class="p">()</span>
+<span class="n">ax</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">ring_centers</span><span class="p">,</span> <span class="n">profile</span><span class="p">,</span> <span class="n">marker</span><span class="o">=</span><span class="s2">"o"</span><span class="p">)</span>
+<span class="n">ax</span><span class="o">.</span><span class="n">axhline</span><span class="p">(</span><span class="mf">0.3</span> <span class="o">*</span> <span class="n">peak_temperature</span><span class="o">.</span><span class="n">value</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s2">"C1"</span><span class="p">,</span> <span class="n">linestyle</span><span class="o">=</span><span class="s2">"--"</span><span class="p">,</span> <span class="n">label</span><span class="o">=</span><span class="s2">"30</span><span class="si">% o</span><span class="s2">f peak"</span><span class="p">)</span>
+<span class="n">ax</span><span class="o">.</span><span class="n">axvline</span><span class="p">(</span><span class="n">hot_spot_radius</span><span class="o">.</span><span class="n">value</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s2">"k"</span><span class="p">,</span> <span class="n">linestyle</span><span class="o">=</span><span class="s2">":"</span><span class="p">,</span> <span class="n">label</span><span class="o">=</span><span class="sa">f</span><span class="s2">"Radius: </span><span class="si">{</span><span class="n">hot_spot_radius</span><span class="si">:</span><span class="s2">.2f</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
+<span class="n">ax</span><span class="o">.</span><span class="n">set_xlabel</span><span class="p">(</span><span class="s2">"Distance from center [deg]"</span><span class="p">)</span>
+<span class="n">ax</span><span class="o">.</span><span class="n">set_ylabel</span><span class="p">(</span><span class="sa">f</span><span class="s2">"Temperature difference [</span><span class="si">{</span><span class="n">profile</span><span class="o">.</span><span class="n">unit</span><span class="si">:</span><span class="s2">latex</span><span class="si">}</span><span class="s2">]"</span><span class="p">)</span>
+<span class="n">ax</span><span class="o">.</span><span class="n">legend</span><span class="p">()</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Angular radius of a hot spot: 0.57 deg
+</pre></div>
+</div>
+<img alt="_images/03161bafa2d563b0026005c07d6a9f936777a6bf2e9c5861d60ceb04b9be2ec6.png" src="_images/03161bafa2d563b0026005c07d6a9f936777a6bf2e9c5861d60ceb04b9be2ec6.png" />
+</div>
+</div>
+<p>A typical hot spot has a radius of about 0.6 degrees: on the sky, it is about twice as wide as the full Moon.</p>
+<div class="alert alert-info">
+This is a rough measurement. The radius we find depends on choices that we made, such as how hot a spot has to be to count as a hot spot, and the 30% threshold. Counting hot spots more than 1σ hotter than average instead of 2σ makes the radius about 20% smaller, and counting only those more than 3σ hotter makes it about 20% larger. The exercise at the end of this tutorial explores this.
+</div></section>
+<section id="convert-the-angular-size-into-a-distance">
+<h2>Convert the angular size into a distance<a class="headerlink" href="#convert-the-angular-size-into-a-distance" title="Link to this heading">#</a></h2>
+<p>As with the Moon, the distance is the physical size divided by the angular size:</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">cmb_distance</span> <span class="o">=</span> <span class="p">(</span><span class="n">sound_horizon</span> <span class="o">/</span> <span class="n">hot_spot_radius</span><span class="p">)</span><span class="o">.</span><span class="n">to</span><span class="p">(</span><span class="n">u</span><span class="o">.</span><span class="n">Gpc</span><span class="p">,</span> <span class="n">equivalencies</span><span class="o">=</span><span class="n">u</span><span class="o">.</span><span class="n">dimensionless_angles</span><span class="p">())</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"Distance to where the CMB was released: </span><span class="si">{</span><span class="n">cmb_distance</span><span class="si">:</span><span class="s2">.1f</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Distance to where the CMB was released: 15.2 Gpc
+</pre></div>
+</div>
+</div>
+</div>
+<p>The place where the CMB was released is now about 15 gigaparsecs (Gpc) away, or about 50 billion light-years. If light had traveled that far at a constant speed, its journey would have taken</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">naive_travel_time</span> <span class="o">=</span> <span class="p">(</span><span class="n">cmb_distance</span> <span class="o">/</span> <span class="n">const</span><span class="o">.</span><span class="n">c</span><span class="p">)</span><span class="o">.</span><span class="n">to</span><span class="p">(</span><span class="n">u</span><span class="o">.</span><span class="n">Gyr</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"Light travel time: </span><span class="si">{</span><span class="n">naive_travel_time</span><span class="si">:</span><span class="s2">.0f</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Light travel time: 50 Gyr
+</pre></div>
+</div>
+</div>
+</div>
+<p>about 50 billion years. That is much older than the 13.8 billion year age of the Universe! What went wrong?</p>
+</section>
+<section id="find-the-age-of-the-universe-with-astropy-cosmology">
+<h2>Find the age of the Universe with astropy.cosmology<a class="headerlink" href="#find-the-age-of-the-universe-with-astropy-cosmology" title="Link to this heading">#</a></h2>
+<p>The Universe expanded while the CMB light traveled to us. The sound horizon of 150 Mpc is its size <em>today</em>, after that expansion, so the distance we measured is also the distance <em>today</em> to where the CMB was released. Cosmologists call this the comoving distance. While the light was on its way, that place was much closer to us.</p>
+<p><code class="docutils literal notranslate"><span class="pre">astropy.cosmology</span></code> computes distances and times in an expanding universe. We start from <code class="docutils literal notranslate"><span class="pre">Planck18</span></code>, the cosmological model measured mainly from the 2018 release of <em>Planck</em>’s CMB data (together with measurements of the distribution of galaxies), and the redshift of about 1100 at which the CMB was released (see the <a class="reference internal" href="1_CMB-Blackbody-Temperature.html"><span class="std std-doc">first tutorial</span></a>). First, we compare our distance with its comoving distance:</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">z_release</span> <span class="o">=</span> <span class="mi">1100</span>
+<span class="n">planck_distance</span> <span class="o">=</span> <span class="n">Planck18</span><span class="o">.</span><span class="n">comoving_distance</span><span class="p">(</span><span class="n">z_release</span><span class="p">)</span><span class="o">.</span><span class="n">to</span><span class="p">(</span><span class="n">u</span><span class="o">.</span><span class="n">Gpc</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"Planck18 comoving distance to z = </span><span class="si">{</span><span class="n">z_release</span><span class="si">}</span><span class="s2">: </span><span class="si">{</span><span class="n">planck_distance</span><span class="si">:</span><span class="s2">.1f</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"Our measurement: </span><span class="si">{</span><span class="n">cmb_distance</span><span class="si">:</span><span class="s2">.1f</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Planck18 comoving distance to z = 1100: 13.9 Gpc
+Our measurement: 15.2 Gpc
+</pre></div>
+</div>
+</div>
+</div>
+<p>Our measurement is about 10% larger. As the note above explains, how close we land depends on the choices we made in measuring the hot spots.</p>
+<p>Distances in an expanding universe depend on how fast it expands. The expansion rate today is the Hubble constant, <span class="math notranslate nohighlight">\(H_0\)</span>. If we keep everything else in the <code class="docutils literal notranslate"><span class="pre">Planck18</span></code> model the same, comoving distances are very nearly inversely proportional to <span class="math notranslate nohighlight">\(H_0\)</span>. So, assuming that the sound horizon stays 150 Mpc, we can make a cosmology that matches our measurement by scaling <span class="math notranslate nohighlight">\(H_0\)</span> with <code class="docutils literal notranslate"><span class="pre">clone</span></code>, which copies a cosmology with some parameters changed:</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">measured_cosmology</span> <span class="o">=</span> <span class="n">Planck18</span><span class="o">.</span><span class="n">clone</span><span class="p">(</span><span class="n">H0</span><span class="o">=</span><span class="n">Planck18</span><span class="o">.</span><span class="n">H0</span> <span class="o">*</span> <span class="n">planck_distance</span> <span class="o">/</span> <span class="n">cmb_distance</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"Hubble constant: </span><span class="si">{</span><span class="n">measured_cosmology</span><span class="o">.</span><span class="n">H0</span><span class="si">:</span><span class="s2">.1f</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"Comoving distance to z = </span><span class="si">{</span><span class="n">z_release</span><span class="si">}</span><span class="s2">: </span><span class="si">{</span><span class="n">measured_cosmology</span><span class="o">.</span><span class="n">comoving_distance</span><span class="p">(</span><span class="n">z_release</span><span class="p">)</span><span class="o">.</span><span class="n">to</span><span class="p">(</span><span class="n">u</span><span class="o">.</span><span class="n">Gpc</span><span class="p">)</span><span class="si">:</span><span class="s2">.1f</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Hubble constant: 61.9 km / (Mpc s)
+Comoving distance to z = 1100: 15.2 Gpc
+</pre></div>
+</div>
+</div>
+</div>
+<p>The comoving distance in this cosmology matches our measurement. The time that the CMB light has really been traveling is called the lookback time:</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">lookback_time</span> <span class="o">=</span> <span class="n">measured_cosmology</span><span class="o">.</span><span class="n">lookback_time</span><span class="p">(</span><span class="n">z_release</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"Light travel time from z = </span><span class="si">{</span><span class="n">z_release</span><span class="si">}</span><span class="s2">: </span><span class="si">{</span><span class="n">lookback_time</span><span class="si">:</span><span class="s2">.1f</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Light travel time from z = 1100: 15.1 Gyr
+</pre></div>
+</div>
+</div>
+</div>
+<p>The CMB was released very soon after the Big Bang, so the time its light has been traveling is almost exactly the age of the Universe:</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">age_today</span> <span class="o">=</span> <span class="n">measured_cosmology</span><span class="o">.</span><span class="n">age</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span>
+<span class="n">age_at_release</span> <span class="o">=</span> <span class="n">measured_cosmology</span><span class="o">.</span><span class="n">age</span><span class="p">(</span><span class="n">z_release</span><span class="p">)</span><span class="o">.</span><span class="n">to</span><span class="p">(</span><span class="n">u</span><span class="o">.</span><span class="n">kyr</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"Age of the Universe today: </span><span class="si">{</span><span class="n">age_today</span><span class="si">:</span><span class="s2">.1f</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"Age of the Universe when the CMB was released: </span><span class="si">{</span><span class="n">age_at_release</span><span class="si">:</span><span class="s2">.0f</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Age of the Universe today: 15.1 Gyr
+Age of the Universe when the CMB was released: 387 kyr
+</pre></div>
+</div>
+</div>
+</div>
+<p>Starting from the size of hot spots on a map of the sky, we have estimated the age of the Universe: about 15 billion years. We compare that with the age in the <code class="docutils literal notranslate"><span class="pre">Planck18</span></code> cosmology:</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"Planck18 age of the Universe: </span><span class="si">{</span><span class="n">Planck18</span><span class="o">.</span><span class="n">age</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span><span class="si">:</span><span class="s2">.1f</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Planck18 age of the Universe: 13.8 Gyr
+</pre></div>
+</div>
+</div>
+</div>
+<p>Our rough measurement is within about 10% of the age that cosmologists find from much more detailed analyses of the CMB: 13.8 billion years.</p>
+</section>
+<section id="exercise">
+<h2>Exercise<a class="headerlink" href="#exercise" title="Link to this heading">#</a></h2>
+<ol class="arabic simple">
+<li><p>Repeat the measurement of the hot spot radius using hot spots more than 1, 1.5, 2.5, and 3 standard deviations hotter than average. How much does the distance to the CMB change?</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">Planck18.H0</span></code> is 67.7 km/s/Mpc, but some measurements using nearby galaxies find about 73 km/s/Mpc. Make a cosmology with that value using <code class="docutils literal notranslate"><span class="pre">Planck18.clone(H0=73</span> <span class="pre">*</span> <span class="pre">u.km</span> <span class="pre">/</span> <span class="pre">u.s</span> <span class="pre">/</span> <span class="pre">u.Mpc)</span></code>. How old is the Universe in that cosmology? What angular radius would the hot spots need to have for our method to give that value?</p></li>
+</ol>
+</section>
+</section>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "astropy-learn/tutorial--cosmic-microwave-background",
+            ref: "main",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            name: "python3",
+            path: "./."
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+                </article>
+              
+
+              
+              
+              
+              
+                <footer class="prev-next-footer d-print-none">
+                  
+<div class="prev-next-area">
+    <a class="left-prev"
+       href="2_CMB-Sky-Map.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">Cosmic Microwave Background 2: Explore an all-sky map of the cosmic microwave background</p>
+      </div>
+    </a>
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <dialog id="pst-secondary-sidebar-modal"></dialog>
+                <div id="pst-secondary-sidebar" class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item"><div
+    id="pst-page-navigation-heading-2"
+    class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav id="pst-page-toc-nav" class="page-toc" aria-labelledby="pst-page-navigation-heading-2">
+    <ul class="pst-show_toc_level nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#authors">Authors</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#learning-goals">Learning Goals</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#keywords">Keywords</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#companion-content">Companion Content</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#summary">Summary</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#imports">Imports</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#measure-the-distance-to-the-moon-from-its-angular-size">Measure the distance to the Moon from its angular size</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#find-hot-spots-in-the-cmb-map">Find hot spots in the CMB map</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#stack-the-hot-spots">Stack the hot spots</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#measure-the-angular-size-of-a-hot-spot">Measure the angular size of a hot spot</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#convert-the-angular-size-into-a-distance">Convert the angular size into a distance</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#find-the-age-of-the-universe-with-astropy-cosmology">Find the age of the Universe with astropy.cosmology</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#exercise">Exercise</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+<div class="bd-footer-content__inner container">
+  
+  <div class="footer-item">
+    
+<p class="component-author">
+By Nathaniel Starkman (@nstarman)  Adapted from the Coding the Cosmos CMB workshop by Louis Branch and Yilun Guan (https://github.com/Coding-the-Cosmos/notebooks, CC0-1.0).
+</p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+</div>
+          </footer>
+        
+
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script defer src="_static/scripts/bootstrap.js?digest=55c26ed414f5f8a31ebb"></script>
+<script defer src="_static/scripts/pydata-sphinx-theme.js?digest=55c26ed414f5f8a31ebb"></script>
+
+  <footer class="bd-footer">
+  </footer>
+  </body>
+</html>
